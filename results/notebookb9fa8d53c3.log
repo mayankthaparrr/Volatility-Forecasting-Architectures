@@ -1,0 +1,461 @@
+[{"stream_name":"stderr","time":6.156980643,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.157069045,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.157075842,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.157080043,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.736108343,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.736157814,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.736163855,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.736167707,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.051362714,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/981.3 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m981.3/981.3 kB\u001b[0m \u001b[31m46.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.760680065,"data":"\u001b[?25hNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":15.151475747,"data":"SP500: removing 0 invalid OHLC rows\n"}
+,{"stream_name":"stdout","time":15.43616947,"data":"NASDAQ100: removing 0 invalid OHLC rows\n"}
+,{"stream_name":"stdout","time":15.540151913999999,"data":"DJIA: removing 0 invalid OHLC rows\n"}
+,{"stream_name":"stdout","time":16.609732901,"data":"SP500: train 2000-02-03 → 2020-07-16 (5145 rows) | test 2020-07-17 → 2025-08-29 (1287 rows)\n"}
+,{"stream_name":"stdout","time":16.609764911,"data":"NASDAQ100: train 2000-02-03 → 2020-07-16 (5145 rows) | test 2020-07-17 → 2025-08-29 (1287 rows)\n"}
+,{"stream_name":"stdout","time":16.609771708,"data":"DJIA: train 2000-02-03 → 2020-07-16 (5145 rows) | test 2020-07-17 → 2025-08-29 (1287 rows)\n"}
+,{"stream_name":"stdout","time":17.066041842,"data":"Key ('SP500', 'CC', 1): X (6312, 120, 4), y (6312,)\n"}
+,{"stream_name":"stdout","time":17.066109548,"data":"First target date: 2000-07-26, last: 2025-08-29\n"}
+,{"stream_name":"stdout","time":17.158315023,"data":"Built 27 registries; all cutoff → target alignments verified.\n"}
+,{"stream_name":"stdout","time":17.228373369,"data":"Cutoff → target trading-day gaps (SP500/CC/h=5): [5]\n"}
+,{"stream_name":"stdout","time":17.228412087,"data":"SP500: first h=1 test target 2020-07-17 (paper: August 2020)\n"}
+,{"stream_name":"stdout","time":17.228417274,"data":"NASDAQ100: first h=1 test target 2020-07-17 (paper: August 2020)\n"}
+,{"stream_name":"stdout","time":17.228420935,"data":"DJIA: first h=1 test target 2020-07-17 (paper: August 2020)\n"}
+,{"stream_name":"stdout","time":17.258362933,"data":"Refit interval: 22 test observations (anchored, expanding window)\n"}
+,{"stream_name":"stdout","time":21.191741869,"data":"SP500: HAR done\n"}
+,{"stream_name":"stdout","time":22.073138988,"data":"NASDAQ100: HAR done\n"}
+,{"stream_name":"stdout","time":22.719112966,"data":"DJIA: HAR done\n"}
+,{"stream_name":"stdout","time":82.374352848,"data":"SP500/CC: selected ARIMA(3, 1, 2) (AIC 23848.2)\n"}
+,{"stream_name":"stdout","time":82.374424655,"data":"  SP500/CC/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":93.019196394,"data":"  SP500/CC/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":103.70361972,"data":"  SP500/CC/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":113.691213946,"data":"  SP500/CC/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":120.772829678,"data":"  SP500/CC/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":128.128307707,"data":"  SP500/CC/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":129.227301237,"data":"  SP500/CC/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":135.576081634,"data":"  SP500/CC/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":142.732050094,"data":"  SP500/CC/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":153.028229212,"data":"  SP500/CC/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":159.91683445,"data":"  SP500/CC/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":167.140921574,"data":"  SP500/CC/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":168.207830876,"data":"  SP500/CC/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":174.447551624,"data":"  SP500/CC/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":180.984715308,"data":"  SP500/CC/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":188.140558979,"data":"  SP500/CC/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":195.264589248,"data":"  SP500/CC/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":203.108793093,"data":"  SP500/CC/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":262.289224617,"data":"SP500/Parkinson: selected ARIMA(2, 1, 2) (AIC 12890.4)\n"}
+,{"stream_name":"stdout","time":262.289265344,"data":"  SP500/Parkinson/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":272.737736421,"data":"  SP500/Parkinson/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":283.632487727,"data":"  SP500/Parkinson/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":293.405611769,"data":"  SP500/Parkinson/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":300.305483024,"data":"  SP500/Parkinson/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":311.344805222,"data":"  SP500/Parkinson/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":313.126874679,"data":"  SP500/Parkinson/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":323.446947279,"data":"  SP500/Parkinson/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":332.90855809,"data":"  SP500/Parkinson/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":339.410295368,"data":"  SP500/Parkinson/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":349.54042705,"data":"  SP500/Parkinson/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":357.503336227,"data":"  SP500/Parkinson/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":358.672066647,"data":"  SP500/Parkinson/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":367.204199364,"data":"  SP500/Parkinson/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":375.577981651,"data":"  SP500/Parkinson/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":383.188579683,"data":"  SP500/Parkinson/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":394.419509888,"data":"  SP500/Parkinson/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":406.633357864,"data":"  SP500/Parkinson/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":479.360621438,"data":"SP500/YangZhang: selected ARIMA(2, 0, 3) (AIC -12689.6)\n"}
+,{"stream_name":"stdout","time":479.360661641,"data":"  SP500/YangZhang/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":491.35364632,"data":"  SP500/YangZhang/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":503.998054212,"data":"  SP500/YangZhang/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":517.012749647,"data":"  SP500/YangZhang/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":530.312649557,"data":"  SP500/YangZhang/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":544.412728205,"data":"  SP500/YangZhang/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":546.444603928,"data":"  SP500/YangZhang/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":558.347347704,"data":"  SP500/YangZhang/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":570.800656638,"data":"  SP500/YangZhang/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":583.71565698,"data":"  SP500/YangZhang/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":597.02154997,"data":"  SP500/YangZhang/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":610.878938655,"data":"  SP500/YangZhang/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":613.013150831,"data":"  SP500/YangZhang/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":625.000481121,"data":"  SP500/YangZhang/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":637.655172029,"data":"  SP500/YangZhang/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":650.560841813,"data":"  SP500/YangZhang/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":664.072316584,"data":"  SP500/YangZhang/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":678.000366626,"data":"  SP500/YangZhang/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":680.011615003,"data":"SP500: ARIMA done\n"}
+,{"stream_name":"stdout","time":728.002460893,"data":"NASDAQ100/CC: selected ARIMA(2, 0, 1) (AIC 23792.7)\n"}
+,{"stream_name":"stdout","time":728.002506426,"data":"  NASDAQ100/CC/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":734.310600434,"data":"  NASDAQ100/CC/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":740.770825596,"data":"  NASDAQ100/CC/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":747.502082437,"data":"  NASDAQ100/CC/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":754.361284682,"data":"  NASDAQ100/CC/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":761.403401646,"data":"  NASDAQ100/CC/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":762.503103741,"data":"  NASDAQ100/CC/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":768.511867682,"data":"  NASDAQ100/CC/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":774.985479634,"data":"  NASDAQ100/CC/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":781.879848693,"data":"  NASDAQ100/CC/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":788.750205259,"data":"  NASDAQ100/CC/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":796.010050113,"data":"  NASDAQ100/CC/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":797.04880986,"data":"  NASDAQ100/CC/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":803.39552374,"data":"  NASDAQ100/CC/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":810.196759639,"data":"  NASDAQ100/CC/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":817.209895989,"data":"  NASDAQ100/CC/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":824.233856,"data":"  NASDAQ100/CC/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":831.368319461,"data":"  NASDAQ100/CC/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":882.401151811,"data":"NASDAQ100/Parkinson: selected ARIMA(1, 1, 2) (AIC 12326.4)\n"}
+,{"stream_name":"stdout","time":882.402363123,"data":"  NASDAQ100/Parkinson/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":888.525391125,"data":"  NASDAQ100/Parkinson/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":895.042458368,"data":"  NASDAQ100/Parkinson/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":901.906242114,"data":"  NASDAQ100/Parkinson/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":908.794820101,"data":"  NASDAQ100/Parkinson/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":916.881573957,"data":"  NASDAQ100/Parkinson/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":918.670571094,"data":"  NASDAQ100/Parkinson/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":926.079409601,"data":"  NASDAQ100/Parkinson/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":933.262224013,"data":"  NASDAQ100/Parkinson/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":943.403079943,"data":"  NASDAQ100/Parkinson/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":950.304420119,"data":"  NASDAQ100/Parkinson/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":957.475264393,"data":"  NASDAQ100/Parkinson/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":958.559941879,"data":"  NASDAQ100/Parkinson/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":967.302813638,"data":"  NASDAQ100/Parkinson/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":978.013944372,"data":"  NASDAQ100/Parkinson/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":989.367637072,"data":"  NASDAQ100/Parkinson/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":997.213471515,"data":"  NASDAQ100/Parkinson/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1004.598959012,"data":"  NASDAQ100/Parkinson/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1068.832367771,"data":"NASDAQ100/YangZhang: selected ARIMA(2, 0, 1) (AIC -11862.2)\n"}
+,{"stream_name":"stdout","time":1068.832401177,"data":"  NASDAQ100/YangZhang/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1075.140283836,"data":"  NASDAQ100/YangZhang/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1081.678655485,"data":"  NASDAQ100/YangZhang/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1088.349253273,"data":"  NASDAQ100/YangZhang/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1095.762228435,"data":"  NASDAQ100/YangZhang/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1103.625714468,"data":"  NASDAQ100/YangZhang/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1104.766914176,"data":"  NASDAQ100/YangZhang/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1111.574907605,"data":"  NASDAQ100/YangZhang/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1118.666118192,"data":"  NASDAQ100/YangZhang/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1125.812349007,"data":"  NASDAQ100/YangZhang/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1133.181128803,"data":"  NASDAQ100/YangZhang/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1140.572454069,"data":"  NASDAQ100/YangZhang/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1141.745310865,"data":"  NASDAQ100/YangZhang/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1148.220311986,"data":"  NASDAQ100/YangZhang/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1154.989494308,"data":"  NASDAQ100/YangZhang/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1162.108605296,"data":"  NASDAQ100/YangZhang/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1169.407481306,"data":"  NASDAQ100/YangZhang/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1177.085248243,"data":"  NASDAQ100/YangZhang/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1178.173203862,"data":"NASDAQ100: ARIMA done\n"}
+,{"stream_name":"stdout","time":1234.013607257,"data":"DJIA/CC: selected ARIMA(1, 0, 2) (AIC 23672.1)\n"}
+,{"stream_name":"stdout","time":1234.013678129,"data":"  DJIA/CC/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1243.690956989,"data":"  DJIA/CC/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1250.746773875,"data":"  DJIA/CC/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1262.882271786,"data":"  DJIA/CC/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1274.192903033,"data":"  DJIA/CC/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1281.849184692,"data":"  DJIA/CC/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1282.977859268,"data":"  DJIA/CC/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1289.720381685,"data":"  DJIA/CC/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1296.720270922,"data":"  DJIA/CC/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1304.073424975,"data":"  DJIA/CC/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1311.957453341,"data":"  DJIA/CC/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1319.809515732,"data":"  DJIA/CC/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1321.011040853,"data":"  DJIA/CC/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1327.907459866,"data":"  DJIA/CC/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1335.100947153,"data":"  DJIA/CC/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1342.495434045,"data":"  DJIA/CC/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1350.626136808,"data":"  DJIA/CC/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1363.587493627,"data":"  DJIA/CC/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1426.433270838,"data":"DJIA/Parkinson: selected ARIMA(3, 1, 2) (AIC 12763.7)\n"}
+,{"stream_name":"stdout","time":1426.433351702,"data":"  DJIA/Parkinson/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1436.934798141,"data":"  DJIA/Parkinson/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1447.689524423,"data":"  DJIA/Parkinson/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1457.122672464,"data":"  DJIA/Parkinson/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1468.959531909,"data":"  DJIA/Parkinson/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1481.115118534,"data":"  DJIA/Parkinson/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1482.977315226,"data":"  DJIA/Parkinson/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1492.689471165,"data":"  DJIA/Parkinson/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1503.275329632,"data":"  DJIA/Parkinson/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1514.500653251,"data":"  DJIA/Parkinson/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1526.152794028,"data":"  DJIA/Parkinson/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1537.974722665,"data":"  DJIA/Parkinson/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1539.801618452,"data":"  DJIA/Parkinson/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1549.737468623,"data":"  DJIA/Parkinson/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1557.194045763,"data":"  DJIA/Parkinson/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1564.122937205,"data":"  DJIA/Parkinson/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1571.136087982,"data":"  DJIA/Parkinson/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1578.403868263,"data":"  DJIA/Parkinson/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1643.140962209,"data":"DJIA/YangZhang: selected ARIMA(3, 0, 2) (AIC -12243.2)\n"}
+,{"stream_name":"stdout","time":1643.140997228,"data":"  DJIA/YangZhang/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1653.506723553,"data":"  DJIA/YangZhang/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1660.538800428,"data":"  DJIA/YangZhang/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1667.974064341,"data":"  DJIA/YangZhang/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1678.396852938,"data":"  DJIA/YangZhang/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1691.780772929,"data":"  DJIA/YangZhang/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1693.124482928,"data":"  DJIA/YangZhang/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1703.882712971,"data":"  DJIA/YangZhang/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1715.858589407,"data":"  DJIA/YangZhang/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1728.212310287,"data":"  DJIA/YangZhang/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1741.207475684,"data":"  DJIA/YangZhang/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1754.442619887,"data":"  DJIA/YangZhang/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1756.379906312,"data":"  DJIA/YangZhang/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1765.214418244,"data":"  DJIA/YangZhang/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1772.84383763,"data":"  DJIA/YangZhang/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1785.337933314,"data":"  DJIA/YangZhang/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1797.561203791,"data":"  DJIA/YangZhang/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1810.95404533,"data":"  DJIA/YangZhang/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1812.636953644,"data":"DJIA: ARIMA done\n"}
+,{"stream_name":"stdout","time":1814.087604176,"data":"  SP500/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1815.232984068,"data":"  SP500/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1816.395018583,"data":"  SP500/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1817.614046418,"data":"  SP500/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1818.822766051,"data":"  SP500/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1820.070020613,"data":"  SP500/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1820.310147374,"data":"  SP500/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1821.52852784,"data":"  SP500/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1822.707464131,"data":"  SP500/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1823.944561281,"data":"  SP500/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1825.196462549,"data":"  SP500/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1826.469381249,"data":"  SP500/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1826.713640606,"data":"  SP500/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1827.993480582,"data":"  SP500/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1829.253512927,"data":"  SP500/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1830.57579984,"data":"  SP500/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1831.902103169,"data":"  SP500/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1833.204637059,"data":"  SP500/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1833.411185227,"data":"SP500: GARCH done\n"}
+,{"stream_name":"stdout","time":1833.411230247,"data":"  NASDAQ100/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1834.727422935,"data":"  NASDAQ100/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1835.897795015,"data":"  NASDAQ100/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1837.131722908,"data":"  NASDAQ100/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1838.316364675,"data":"  NASDAQ100/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1839.535664601,"data":"  NASDAQ100/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1839.772164347,"data":"  NASDAQ100/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1841.018872269,"data":"  NASDAQ100/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1842.262866783,"data":"  NASDAQ100/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1843.553741257,"data":"  NASDAQ100/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1844.776471031,"data":"  NASDAQ100/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1846.020118589,"data":"  NASDAQ100/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1846.265795433,"data":"  NASDAQ100/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1847.517480733,"data":"  NASDAQ100/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1848.752868106,"data":"  NASDAQ100/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1850.070296645,"data":"  NASDAQ100/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1851.339291863,"data":"  NASDAQ100/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1852.647761464,"data":"  NASDAQ100/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1852.647807129,"data":"NASDAQ100: GARCH done\n"}
+,{"stream_name":"stdout","time":1852.890906061,"data":"  DJIA/h=1: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1854.046287412,"data":"  DJIA/h=1: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1855.210682122,"data":"  DJIA/h=1: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1856.452202373,"data":"  DJIA/h=1: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1857.681530483,"data":"  DJIA/h=1: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1858.92397146,"data":"  DJIA/h=1: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1859.180088357,"data":"  DJIA/h=5: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1860.393508091,"data":"  DJIA/h=5: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1861.66914561,"data":"  DJIA/h=5: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1862.925419775,"data":"  DJIA/h=5: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1864.165013004,"data":"  DJIA/h=5: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1865.412069033,"data":"  DJIA/h=5: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1865.652714261,"data":"  DJIA/h=22: origin 0/1287\n"}
+,{"stream_name":"stdout","time":1866.892234043,"data":"  DJIA/h=22: origin 250/1287\n"}
+,{"stream_name":"stdout","time":1868.106258622,"data":"  DJIA/h=22: origin 500/1287\n"}
+,{"stream_name":"stdout","time":1869.416639815,"data":"  DJIA/h=22: origin 750/1287\n"}
+,{"stream_name":"stdout","time":1870.705843078,"data":"  DJIA/h=22: origin 1000/1287\n"}
+,{"stream_name":"stdout","time":1872.058754679,"data":"  DJIA/h=22: origin 1250/1287\n"}
+,{"stream_name":"stdout","time":1872.068748635,"data":"DJIA: GARCH done\n"}
+,{"stream_name":"stdout","time":1876.703490111,"data":"Device: cuda\n"}
+,{"stream_name":"stdout","time":1888.04836162,"data":"('SP500', 'CC', 'LSTM', 1): best epoch 10, train QLIKE -8.4314, val QLIKE -6.9675, 11s\n"}
+,{"stream_name":"stdout","time":1895.561255411,"data":"('SP500', 'CC', 'CNN_LSTM', 1): best epoch 15, train QLIKE -8.4717, val QLIKE -7.1578, 8s\n"}
+,{"stream_name":"stderr","time":1895.581281213,"data":"/tmp/ipykernel_23/3388809809.py:45: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":1895.58132065,"data":"  self.encoder = nn.TransformerEncoder(encoder_layer, layers)\n"}
+,{"stream_name":"stderr","time":1895.581374397,"data":"\n"}
+,{"stream_name":"stderr","time":1895.581378435,"data":"/tmp/ipykernel_23/3388809809.py:45: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":1895.581382833,"data":"  self.encoder = nn.TransformerEncoder(encoder_layer, layers)\n"}
+,{"stream_name":"stdout","time":1908.408580872,"data":"('SP500', 'CC', 'Transformer', 1): best epoch 13, train QLIKE -8.4295, val QLIKE -7.3309, 13s\n"}
+,{"stream_name":"stderr","time":1908.409662557,"data":"/tmp/ipykernel_23/3388809809.py:63: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":1908.409717927,"data":"  self.encoder = nn.TransformerEncoder(encoder_layer, layers)\n"}
+,{"stream_name":"stderr","time":1908.409727764,"data":"\n"}
+,{"stream_name":"stderr","time":1908.40973032,"data":"/tmp/ipykernel_23/3388809809.py:63: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n"}
+,{"stream_name":"stderr","time":1908.409733153,"data":"  self.encoder = nn.TransformerEncoder(encoder_layer, layers)\n"}
+,{"stream_name":"stdout","time":1929.028611822,"data":"('SP500', 'CC', 'PatchTST_lite', 1): best epoch 17, train QLIKE -8.6845, val QLIKE -7.2989, 21s\n"}
+,{"stream_name":"stdout","time":1929.02865788,"data":"('SP500', 'CC', 1): done\n"}
+,{"stream_name":"stdout","time":1933.629149127,"data":"('SP500', 'CC', 'LSTM', 5): best epoch 8, train QLIKE -8.2936, val QLIKE -6.9056, 5s\n"}
+,{"stream_name":"stdout","time":1939.81518788,"data":"('SP500', 'CC', 'CNN_LSTM', 5): best epoch 12, train QLIKE -8.3168, val QLIKE -6.9356, 6s\n"}
+,{"stream_name":"stdout","time":1945.986680882,"data":"('SP500', 'CC', 'Transformer', 5): best epoch 1, train QLIKE -8.2357, val QLIKE -7.1821, 6s\n"}
+,{"stream_name":"stdout","time":1963.562608985,"data":"('SP500', 'CC', 'PatchTST_lite', 5): best epoch 13, train QLIKE -8.3994, val QLIKE -7.3092, 18s\n"}
+,{"stream_name":"stdout","time":1963.562678099,"data":"('SP500', 'CC', 5): done\n"}
+,{"stream_name":"stdout","time":1966.369446352,"data":"('SP500', 'CC', 'LSTM', 22): best epoch 1, train QLIKE -7.9152, val QLIKE -7.1480, 3s\n"}
+,{"stream_name":"stdout","time":1980.189756604,"data":"('SP500', 'CC', 'CNN_LSTM', 22): best epoch 39, train QLIKE -8.4844, val QLIKE -7.2349, 14s\n"}
+,{"stream_name":"stdout","time":1989.724881825,"data":"('SP500', 'CC', 'Transformer', 22): best epoch 7, train QLIKE -8.1877, val QLIKE -7.2336, 10s\n"}
+,{"stream_name":"stdout","time":1999.089415111,"data":"('SP500', 'CC', 'PatchTST_lite', 22): best epoch 2, train QLIKE -7.9467, val QLIKE -7.2500, 9s\n"}
+,{"stream_name":"stdout","time":1999.089462767,"data":"('SP500', 'CC', 22): done\n"}
+,{"stream_name":"stdout","time":2009.933975784,"data":"('SP500', 'Parkinson', 'LSTM', 1): best epoch 33, train QLIKE -8.8155, val QLIKE -8.0555, 11s\n"}
+,{"stream_name":"stdout","time":2019.299713581,"data":"('SP500', 'Parkinson', 'CNN_LSTM', 1): best epoch 23, train QLIKE -8.8236, val QLIKE -8.0356, 9s\n"}
+,{"stream_name":"stdout","time":2035.665845387,"data":"('SP500', 'Parkinson', 'Transformer', 1): best epoch 19, train QLIKE -8.8094, val QLIKE -8.0444, 16s\n"}
+,{"stream_name":"stdout","time":2057.298267011,"data":"('SP500', 'Parkinson', 'PatchTST_lite', 1): best epoch 18, train QLIKE -8.8880, val QLIKE -8.0660, 22s\n"}
+,{"stream_name":"stdout","time":2057.29830268,"data":"('SP500', 'Parkinson', 1): done\n"}
+,{"stream_name":"stdout","time":2062.405256303,"data":"('SP500', 'Parkinson', 'LSTM', 5): best epoch 10, train QLIKE -8.6833, val QLIKE -7.7635, 5s\n"}
+,{"stream_name":"stdout","time":2067.43726535,"data":"('SP500', 'Parkinson', 'CNN_LSTM', 5): best epoch 8, train QLIKE -8.6900, val QLIKE -7.7474, 5s\n"}
+,{"stream_name":"stdout","time":2088.867684476,"data":"('SP500', 'Parkinson', 'Transformer', 5): best epoch 28, train QLIKE -8.8132, val QLIKE -7.9292, 21s\n"}
+,{"stream_name":"stdout","time":2105.785081523,"data":"('SP500', 'Parkinson', 'PatchTST_lite', 5): best epoch 12, train QLIKE -8.7551, val QLIKE -7.9016, 17s\n"}
+,{"stream_name":"stdout","time":2105.785136939,"data":"('SP500', 'Parkinson', 5): done\n"}
+,{"stream_name":"stdout","time":2109.075889716,"data":"('SP500', 'Parkinson', 'LSTM', 22): best epoch 3, train QLIKE -8.4500, val QLIKE -7.6772, 3s\n"}
+,{"stream_name":"stdout","time":2116.784916234,"data":"('SP500', 'Parkinson', 'CNN_LSTM', 22): best epoch 17, train QLIKE -8.7223, val QLIKE -7.7960, 8s\n"}
+,{"stream_name":"stdout","time":2123.719243626,"data":"('SP500', 'Parkinson', 'Transformer', 22): best epoch 2, train QLIKE -8.5121, val QLIKE -7.8186, 7s\n"}
+,{"stream_name":"stdout","time":2142.69664745,"data":"('SP500', 'Parkinson', 'PatchTST_lite', 22): best epoch 15, train QLIKE -8.7300, val QLIKE -7.9125, 19s\n"}
+,{"stream_name":"stdout","time":2142.696702916,"data":"('SP500', 'Parkinson', 22): done\n"}
+,{"stream_name":"stdout","time":2161.784941049,"data":"('SP500', 'YangZhang', 'LSTM', 1): best epoch 65, train QLIKE -8.7975, val QLIKE -7.2476, 19s\n"}
+,{"stream_name":"stdout","time":2169.219334778,"data":"('SP500', 'YangZhang', 'CNN_LSTM', 1): best epoch 17, train QLIKE -8.7967, val QLIKE -7.2474, 7s\n"}
+,{"stream_name":"stdout","time":2186.506070333,"data":"('SP500', 'YangZhang', 'Transformer', 1): best epoch 21, train QLIKE -8.7928, val QLIKE -7.2456, 17s\n"}
+,{"stream_name":"stdout","time":2204.179579808,"data":"('SP500', 'YangZhang', 'PatchTST_lite', 1): best epoch 13, train QLIKE -8.7928, val QLIKE -7.2438, 18s\n"}
+,{"stream_name":"stdout","time":2204.179627804,"data":"('SP500', 'YangZhang', 1): done\n"}
+,{"stream_name":"stdout","time":2209.969345941,"data":"('SP500', 'YangZhang', 'LSTM', 5): best epoch 13, train QLIKE -8.7801, val QLIKE -7.2176, 6s\n"}
+,{"stream_name":"stdout","time":2215.382495764,"data":"('SP500', 'YangZhang', 'CNN_LSTM', 5): best epoch 9, train QLIKE -8.7819, val QLIKE -7.2174, 5s\n"}
+,{"stream_name":"stdout","time":2226.997714015,"data":"('SP500', 'YangZhang', 'Transformer', 5): best epoch 10, train QLIKE -8.7803, val QLIKE -7.2314, 12s\n"}
+,{"stream_name":"stdout","time":2242.408265051,"data":"('SP500', 'YangZhang', 'PatchTST_lite', 5): best epoch 10, train QLIKE -8.7788, val QLIKE -7.2256, 15s\n"}
+,{"stream_name":"stdout","time":2242.408308408,"data":"('SP500', 'YangZhang', 5): done\n"}
+,{"stream_name":"stdout","time":2248.301204105,"data":"('SP500', 'YangZhang', 'LSTM', 22): best epoch 13, train QLIKE -8.6034, val QLIKE -7.0688, 6s\n"}
+,{"stream_name":"stdout","time":2256.73190414,"data":"('SP500', 'YangZhang', 'CNN_LSTM', 22): best epoch 20, train QLIKE -8.7435, val QLIKE -7.1462, 8s\n"}
+,{"stream_name":"stdout","time":2263.004908773,"data":"('SP500', 'YangZhang', 'Transformer', 22): best epoch 1, train QLIKE -8.5381, val QLIKE -7.1602, 6s\n"}
+,{"stream_name":"stdout","time":2275.957793945,"data":"('SP500', 'YangZhang', 'PatchTST_lite', 22): best epoch 7, train QLIKE -8.6698, val QLIKE -7.1781, 13s\n"}
+,{"stream_name":"stdout","time":2275.957836854,"data":"('SP500', 'YangZhang', 22): done\n"}
+,{"stream_name":"stdout","time":2278.800115968,"data":"('NASDAQ100', 'CC', 'LSTM', 1): best epoch 1, train QLIKE -7.7591, val QLIKE -7.1252, 3s\n"}
+,{"stream_name":"stdout","time":2281.949006056,"data":"('NASDAQ100', 'CC', 'CNN_LSTM', 1): best epoch 1, train QLIKE -7.7636, val QLIKE -7.0217, 3s\n"}
+,{"stream_name":"stdout","time":2290.697374731,"data":"('NASDAQ100', 'CC', 'Transformer', 1): best epoch 5, train QLIKE -7.7857, val QLIKE -7.2182, 9s\n"}
+,{"stream_name":"stdout","time":2302.27502787,"data":"('NASDAQ100', 'CC', 'PatchTST_lite', 1): best epoch 5, train QLIKE -7.7673, val QLIKE -7.3020, 12s\n"}
+,{"stream_name":"stdout","time":2302.275098335,"data":"('NASDAQ100', 'CC', 1): done\n"}
+,{"stream_name":"stdout","time":2318.706721048,"data":"('NASDAQ100', 'CC', 'LSTM', 5): best epoch 55, train QLIKE -7.7865, val QLIKE -7.3170, 16s\n"}
+,{"stream_name":"stdout","time":2328.336748359,"data":"('NASDAQ100', 'CC', 'CNN_LSTM', 5): best epoch 24, train QLIKE -7.8076, val QLIKE -7.3239, 10s\n"}
+,{"stream_name":"stdout","time":2336.296435031,"data":"('NASDAQ100', 'CC', 'Transformer', 5): best epoch 4, train QLIKE -7.6784, val QLIKE -7.3198, 8s\n"}
+,{"stream_name":"stdout","time":2351.587919109,"data":"('NASDAQ100', 'CC', 'PatchTST_lite', 5): best epoch 10, train QLIKE -7.7468, val QLIKE -7.3090, 15s\n"}
+,{"stream_name":"stdout","time":2351.587951087,"data":"('NASDAQ100', 'CC', 5): done\n"}
+,{"stream_name":"stdout","time":2364.112453517,"data":"('NASDAQ100', 'CC', 'LSTM', 22): best epoch 39, train QLIKE -7.6383, val QLIKE -7.2836, 13s\n"}
+,{"stream_name":"stdout","time":2369.580128058,"data":"('NASDAQ100', 'CC', 'CNN_LSTM', 22): best epoch 9, train QLIKE -7.5200, val QLIKE -7.1893, 5s\n"}
+,{"stream_name":"stdout","time":2389.764738943,"data":"('NASDAQ100', 'CC', 'Transformer', 22): best epoch 25, train QLIKE -7.8197, val QLIKE -7.3574, 20s\n"}
+,{"stream_name":"stdout","time":2402.998648122,"data":"('NASDAQ100', 'CC', 'PatchTST_lite', 22): best epoch 7, train QLIKE -7.5864, val QLIKE -7.2962, 13s\n"}
+,{"stream_name":"stdout","time":2402.998693268,"data":"('NASDAQ100', 'CC', 22): done\n"}
+,{"stream_name":"stdout","time":2408.044659696,"data":"('NASDAQ100', 'Parkinson', 'LSTM', 1): best epoch 10, train QLIKE -8.2365, val QLIKE -7.6352, 5s\n"}
+,{"stream_name":"stdout","time":2415.380920076,"data":"('NASDAQ100', 'Parkinson', 'CNN_LSTM', 1): best epoch 16, train QLIKE -8.2666, val QLIKE -7.6542, 7s\n"}
+,{"stream_name":"stdout","time":2432.232802251,"data":"('NASDAQ100', 'Parkinson', 'Transformer', 1): best epoch 20, train QLIKE -8.2511, val QLIKE -7.7275, 17s\n"}
+,{"stream_name":"stdout","time":2443.689387108,"data":"('NASDAQ100', 'Parkinson', 'PatchTST_lite', 1): best epoch 5, train QLIKE -8.2360, val QLIKE -7.7256, 11s\n"}
+,{"stream_name":"stdout","time":2443.68945398,"data":"('NASDAQ100', 'Parkinson', 1): done\n"}
+,{"stream_name":"stdout","time":2454.145986488,"data":"('NASDAQ100', 'Parkinson', 'LSTM', 5): best epoch 31, train QLIKE -8.1623, val QLIKE -7.6899, 10s\n"}
+,{"stream_name":"stdout","time":2462.635039965,"data":"('NASDAQ100', 'Parkinson', 'CNN_LSTM', 5): best epoch 20, train QLIKE -8.1999, val QLIKE -7.6412, 8s\n"}
+,{"stream_name":"stdout","time":2477.946835271,"data":"('NASDAQ100', 'Parkinson', 'Transformer', 5): best epoch 17, train QLIKE -8.2126, val QLIKE -7.7088, 15s\n"}
+,{"stream_name":"stdout","time":2491.764015295,"data":"('NASDAQ100', 'Parkinson', 'PatchTST_lite', 5): best epoch 8, train QLIKE -8.1773, val QLIKE -7.6672, 14s\n"}
+,{"stream_name":"stdout","time":2491.764062221,"data":"('NASDAQ100', 'Parkinson', 5): done\n"}
+,{"stream_name":"stdout","time":2498.615316296,"data":"('NASDAQ100', 'Parkinson', 'LSTM', 22): best epoch 17, train QLIKE -8.0600, val QLIKE -7.5589, 7s\n"}
+,{"stream_name":"stdout","time":2503.389736961,"data":"('NASDAQ100', 'Parkinson', 'CNN_LSTM', 22): best epoch 6, train QLIKE -8.0437, val QLIKE -7.4856, 5s\n"}
+,{"stream_name":"stdout","time":2513.006746479,"data":"('NASDAQ100', 'Parkinson', 'Transformer', 22): best epoch 7, train QLIKE -8.0752, val QLIKE -7.6851, 10s\n"}
+,{"stream_name":"stdout","time":2531.345813111,"data":"('NASDAQ100', 'Parkinson', 'PatchTST_lite', 22): best epoch 14, train QLIKE -8.1958, val QLIKE -7.6945, 18s\n"}
+,{"stream_name":"stdout","time":2531.34584387,"data":"('NASDAQ100', 'Parkinson', 22): done\n"}
+,{"stream_name":"stdout","time":2547.350659095,"data":"('NASDAQ100', 'YangZhang', 'LSTM', 1): best epoch 53, train QLIKE -7.8972, val QLIKE -7.1225, 16s\n"}
+,{"stream_name":"stdout","time":2562.628443383,"data":"('NASDAQ100', 'YangZhang', 'CNN_LSTM', 1): best epoch 45, train QLIKE -7.8992, val QLIKE -7.1221, 15s\n"}
+,{"stream_name":"stdout","time":2570.487264279,"data":"('NASDAQ100', 'YangZhang', 'Transformer', 1): best epoch 4, train QLIKE -7.8917, val QLIKE -7.1193, 8s\n"}
+,{"stream_name":"stdout","time":2584.387189692,"data":"('NASDAQ100', 'YangZhang', 'PatchTST_lite', 1): best epoch 8, train QLIKE -7.8856, val QLIKE -7.1105, 14s\n"}
+,{"stream_name":"stdout","time":2584.387235443,"data":"('NASDAQ100', 'YangZhang', 1): done\n"}
+,{"stream_name":"stdout","time":2590.26146572,"data":"('NASDAQ100', 'YangZhang', 'LSTM', 5): best epoch 13, train QLIKE -7.8743, val QLIKE -7.0953, 6s\n"}
+,{"stream_name":"stdout","time":2597.539785112,"data":"('NASDAQ100', 'YangZhang', 'CNN_LSTM', 5): best epoch 16, train QLIKE -7.8848, val QLIKE -7.1037, 7s\n"}
+,{"stream_name":"stdout","time":2607.437317163,"data":"('NASDAQ100', 'YangZhang', 'Transformer', 5): best epoch 7, train QLIKE -7.8758, val QLIKE -7.1094, 10s\n"}
+,{"stream_name":"stdout","time":2627.924041214,"data":"('NASDAQ100', 'YangZhang', 'PatchTST_lite', 5): best epoch 17, train QLIKE -7.8827, val QLIKE -7.1017, 20s\n"}
+,{"stream_name":"stdout","time":2627.924077616,"data":"('NASDAQ100', 'YangZhang', 5): done\n"}
+,{"stream_name":"stdout","time":2631.809456407,"data":"('NASDAQ100', 'YangZhang', 'LSTM', 22): best epoch 5, train QLIKE -7.6950, val QLIKE -6.9991, 4s\n"}
+,{"stream_name":"stdout","time":2638.207503356,"data":"('NASDAQ100', 'YangZhang', 'CNN_LSTM', 22): best epoch 13, train QLIKE -7.8209, val QLIKE -6.9827, 6s\n"}
+,{"stream_name":"stdout","time":2662.225029067,"data":"('NASDAQ100', 'YangZhang', 'Transformer', 22): best epoch 33, train QLIKE -7.8942, val QLIKE -7.0984, 24s\n"}
+,{"stream_name":"stdout","time":2679.061290804,"data":"('NASDAQ100', 'YangZhang', 'PatchTST_lite', 22): best epoch 12, train QLIKE -7.7858, val QLIKE -7.0835, 17s\n"}
+,{"stream_name":"stdout","time":2679.06134735,"data":"('NASDAQ100', 'YangZhang', 22): done\n"}
+,{"stream_name":"stdout","time":2683.761976003,"data":"('DJIA', 'CC', 'LSTM', 1): best epoch 8, train QLIKE -8.4990, val QLIKE -6.5851, 5s\n"}
+,{"stream_name":"stdout","time":2686.89215999,"data":"('DJIA', 'CC', 'CNN_LSTM', 1): best epoch 1, train QLIKE -8.4642, val QLIKE -6.7429, 3s\n"}
+,{"stream_name":"stdout","time":2693.937439329,"data":"('DJIA', 'CC', 'Transformer', 1): best epoch 2, train QLIKE -8.4445, val QLIKE -6.9574, 7s\n"}
+,{"stream_name":"stdout","time":2714.329092183,"data":"('DJIA', 'CC', 'PatchTST_lite', 1): best epoch 17, train QLIKE -8.7257, val QLIKE -7.0273, 20s\n"}
+,{"stream_name":"stdout","time":2714.329142077,"data":"('DJIA', 'CC', 1): done\n"}
+,{"stream_name":"stdout","time":2717.181831275,"data":"('DJIA', 'CC', 'LSTM', 5): best epoch 1, train QLIKE -8.3524, val QLIKE -6.3649, 3s\n"}
+,{"stream_name":"stdout","time":2720.636473791,"data":"('DJIA', 'CC', 'CNN_LSTM', 5): best epoch 2, train QLIKE -8.3713, val QLIKE -6.4228, 3s\n"}
+,{"stream_name":"stdout","time":2726.930979488,"data":"('DJIA', 'CC', 'Transformer', 5): best epoch 1, train QLIKE -8.3397, val QLIKE -6.8746, 6s\n"}
+,{"stream_name":"stdout","time":2735.23972261,"data":"('DJIA', 'CC', 'PatchTST_lite', 5): best epoch 1, train QLIKE -8.2228, val QLIKE -6.9036, 8s\n"}
+,{"stream_name":"stdout","time":2735.239767137,"data":"('DJIA', 'CC', 5): done\n"}
+,{"stream_name":"stdout","time":2737.967782765,"data":"('DJIA', 'CC', 'LSTM', 22): best epoch 1, train QLIKE -7.9485, val QLIKE -6.9073, 3s\n"}
+,{"stream_name":"stdout","time":2748.132405704,"data":"('DJIA', 'CC', 'CNN_LSTM', 22): best epoch 27, train QLIKE -8.4686, val QLIKE -6.9114, 10s\n"}
+,{"stream_name":"stdout","time":2754.528578151,"data":"('DJIA', 'CC', 'Transformer', 22): best epoch 1, train QLIKE -8.0070, val QLIKE -6.9932, 6s\n"}
+,{"stream_name":"stdout","time":2763.647437052,"data":"('DJIA', 'CC', 'PatchTST_lite', 22): best epoch 2, train QLIKE -8.0029, val QLIKE -7.0109, 9s\n"}
+,{"stream_name":"stdout","time":2763.647477794,"data":"('DJIA', 'CC', 22): done\n"}
+,{"stream_name":"stdout","time":2775.218307085,"data":"('DJIA', 'Parkinson', 'LSTM', 1): best epoch 37, train QLIKE -8.8379, val QLIKE -7.9087, 12s\n"}
+,{"stream_name":"stdout","time":2780.175676761,"data":"('DJIA', 'Parkinson', 'CNN_LSTM', 1): best epoch 8, train QLIKE -8.8221, val QLIKE -7.8553, 5s\n"}
+,{"stream_name":"stdout","time":2796.50456198,"data":"('DJIA', 'Parkinson', 'Transformer', 1): best epoch 19, train QLIKE -8.8297, val QLIKE -7.8752, 16s\n"}
+,{"stream_name":"stdout","time":2814.51742862,"data":"('DJIA', 'Parkinson', 'PatchTST_lite', 1): best epoch 14, train QLIKE -8.8870, val QLIKE -7.8516, 18s\n"}
+,{"stream_name":"stdout","time":2814.517472583,"data":"('DJIA', 'Parkinson', 1): done\n"}
+,{"stream_name":"stdout","time":2819.141774871,"data":"('DJIA', 'Parkinson', 'LSTM', 5): best epoch 8, train QLIKE -8.6973, val QLIKE -7.5308, 5s\n"}
+,{"stream_name":"stdout","time":2824.205341887,"data":"('DJIA', 'Parkinson', 'CNN_LSTM', 5): best epoch 8, train QLIKE -8.7046, val QLIKE -7.6271, 5s\n"}
+,{"stream_name":"stdout","time":2843.181635309,"data":"('DJIA', 'Parkinson', 'Transformer', 5): best epoch 23, train QLIKE -8.8080, val QLIKE -7.7776, 19s\n"}
+,{"stream_name":"stdout","time":2859.668489579,"data":"('DJIA', 'Parkinson', 'PatchTST_lite', 5): best epoch 12, train QLIKE -8.7418, val QLIKE -7.7757, 17s\n"}
+,{"stream_name":"stdout","time":2859.668542094,"data":"('DJIA', 'Parkinson', 5): done\n"}
+,{"stream_name":"stdout","time":2862.77666608,"data":"('DJIA', 'Parkinson', 'LSTM', 22): best epoch 2, train QLIKE -8.4521, val QLIKE -7.5687, 3s\n"}
+,{"stream_name":"stdout","time":2869.336230783,"data":"('DJIA', 'Parkinson', 'CNN_LSTM', 22): best epoch 14, train QLIKE -8.6556, val QLIKE -7.7867, 7s\n"}
+,{"stream_name":"stdout","time":2879.979022714,"data":"('DJIA', 'Parkinson', 'Transformer', 22): best epoch 9, train QLIKE -8.6548, val QLIKE -7.8274, 11s\n"}
+,{"stream_name":"stdout","time":2891.319948953,"data":"('DJIA', 'Parkinson', 'PatchTST_lite', 22): best epoch 5, train QLIKE -8.5509, val QLIKE -7.7188, 11s\n"}
+,{"stream_name":"stdout","time":2891.320013099,"data":"('DJIA', 'Parkinson', 22): done\n"}
+,{"stream_name":"stdout","time":2910.143297992,"data":"('DJIA', 'YangZhang', 'LSTM', 1): best epoch 65, train QLIKE -8.8219, val QLIKE -7.1921, 19s\n"}
+,{"stream_name":"stdout","time":2924.349453415,"data":"('DJIA', 'YangZhang', 'CNN_LSTM', 1): best epoch 41, train QLIKE -8.8223, val QLIKE -7.1921, 14s\n"}
+,{"stream_name":"stdout","time":2935.170210111,"data":"('DJIA', 'YangZhang', 'Transformer', 1): best epoch 9, train QLIKE -8.8180, val QLIKE -7.1608, 11s\n"}
+,{"stream_name":"stdout","time":2952.775774144,"data":"('DJIA', 'YangZhang', 'PatchTST_lite', 1): best epoch 13, train QLIKE -8.8153, val QLIKE -7.1843, 18s\n"}
+,{"stream_name":"stdout","time":2952.775846954,"data":"('DJIA', 'YangZhang', 1): done\n"}
+,{"stream_name":"stdout","time":2959.857473008,"data":"('DJIA', 'YangZhang', 'LSTM', 5): best epoch 18, train QLIKE -8.8038, val QLIKE -7.1412, 7s\n"}
+,{"stream_name":"stdout","time":2964.373685488,"data":"('DJIA', 'YangZhang', 'CNN_LSTM', 5): best epoch 6, train QLIKE -8.8010, val QLIKE -7.1354, 5s\n"}
+,{"stream_name":"stdout","time":2974.049411596,"data":"('DJIA', 'YangZhang', 'Transformer', 5): best epoch 7, train QLIKE -8.7904, val QLIKE -7.1660, 10s\n"}
+,{"stream_name":"stdout","time":3001.672068955,"data":"('DJIA', 'YangZhang', 'PatchTST_lite', 5): best epoch 26, train QLIKE -8.8099, val QLIKE -7.1593, 28s\n"}
+,{"stream_name":"stdout","time":3001.672112998,"data":"('DJIA', 'YangZhang', 5): done\n"}
+,{"stream_name":"stdout","time":3004.741381356,"data":"('DJIA', 'YangZhang', 'LSTM', 22): best epoch 2, train QLIKE -8.5525, val QLIKE -6.8307, 3s\n"}
+,{"stream_name":"stdout","time":3009.674892111,"data":"('DJIA', 'YangZhang', 'CNN_LSTM', 22): best epoch 8, train QLIKE -8.6392, val QLIKE -6.9883, 5s\n"}
+,{"stream_name":"stdout","time":3017.233416171,"data":"('DJIA', 'YangZhang', 'Transformer', 22): best epoch 3, train QLIKE -8.5975, val QLIKE -6.9822, 8s\n"}
+,{"stream_name":"stdout","time":3025.391764932,"data":"('DJIA', 'YangZhang', 'PatchTST_lite', 22): best epoch 1, train QLIKE -8.4932, val QLIKE -7.0834, 8s\n"}
+,{"stream_name":"stdout","time":3025.391844977,"data":"('DJIA', 'YangZhang', 22): done\n"}
+,{"stream_name":"stdout","time":3025.483397545,"data":"Total training time: 19.1 minutes\n"}
+,{"stream_name":"stdout","time":3025.674410643,"data":"Evaluated 189 (index × estimator × horizon × model) rows.\n"}
+,{"stream_name":"stdout","time":3025.748503534,"data":"\n"}
+,{"stream_name":"stdout","time":3025.748537064,"data":"=== SP500 — Close-to-Close: QLIKE by horizon ===\n"}
+,{"stream_name":"stdout","time":3025.757424515,"data":"\n"}
+,{"stream_name":"stdout","time":3025.75745659,"data":"=== NASDAQ100 — Close-to-Close: QLIKE by horizon ===\n"}
+,{"stream_name":"stdout","time":3025.765628924,"data":"\n"}
+,{"stream_name":"stdout","time":3025.7656516,"data":"=== DJIA — Close-to-Close: QLIKE by horizon ===\n"}
+,{"stream_name":"stdout","time":3025.782292418,"data":"Mean QLIKE rank across all 27 combos (1 = best):\n"}
+,{"stream_name":"stdout","time":3025.8662623,"data":"Mean test − train QLIKE gap (positive = in-sample advantage / overfitting):\n"}
+,{"stream_name":"stdout","time":3025.877264463,"data":"Mean test − validation QLIKE gap (positive = generalization loss vs early-stopping pick):\n"}
+,{"stream_name":"stdout","time":3025.887748298,"data":"Best-epoch distribution (early-stopping headroom):\n"}
+,{"stream_name":"stdout","time":3026.335934511,"data":"Saved results_summary.csv and test_losses_per_date.csv to the working directory.\n"}
+,{"stream_name":"stdout","time":3026.881870796,"data":"Ran 300 DM tests.\n"}
+,{"stream_name":"stdout","time":3026.952496216,"data":"=== DM vs HAR: SP500 / CC panel ===\n"}
+,{"stream_name":"stdout","time":3026.966289035,"data":"\n"}
+,{"stream_name":"stdout","time":3026.966385224,"data":"Significant DM outcomes vs HAR, by model and horizon (9 combos = 3 indices × 3 estimators):\n"}
+,{"stream_name":"stdout","time":3026.969912439,"data":"Lag-h robustness check agrees with lag-h−1 on 161/162 tests.\n"}
+,{"stream_name":"stdout","time":3027.036002846,"data":"Saved dm_tests.csv to the working directory.\n"}
+,{"stream_name":"stdout","time":3027.107840256,"data":"\n"}
+,{"stream_name":"stdout","time":3027.107878163,"data":"=== SP500 / CC — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.118407255,"data":"\n"}
+,{"stream_name":"stdout","time":3027.118430982,"data":"=== SP500 / Parkinson — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.128827992,"data":"\n"}
+,{"stream_name":"stdout","time":3027.128849505,"data":"=== SP500 / YangZhang — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.139787339,"data":"\n"}
+,{"stream_name":"stdout","time":3027.139809067,"data":"=== NASDAQ100 / CC — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.149726885,"data":"\n"}
+,{"stream_name":"stdout","time":3027.149745783,"data":"=== NASDAQ100 / Parkinson — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.159386429,"data":"\n"}
+,{"stream_name":"stdout","time":3027.159425416,"data":"=== NASDAQ100 / YangZhang — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.16985032,"data":"\n"}
+,{"stream_name":"stdout","time":3027.169876216,"data":"=== DJIA / CC — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.180042978,"data":"\n"}
+,{"stream_name":"stdout","time":3027.180060419,"data":"=== DJIA / Parkinson — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.190230159,"data":"\n"}
+,{"stream_name":"stdout","time":3027.190278657,"data":"=== DJIA / YangZhang — QLIKE (rows = model, cols = horizon) ===\n"}
+,{"stream_name":"stdout","time":3027.254596582,"data":"Saved results_panels.csv (QLIKE/RMSE/MAE for all 9 panels).\n"}
+,{"stream_name":"stdout","time":3028.761892051,"data":"Best DL model per index (mean QLIKE rank over 9 combos): {'SP500': 'LSTM', 'NASDAQ100': 'CNN_LSTM', 'DJIA': 'LSTM'}\n"}
+,{"stream_name":"stdout","time":3034.754721569,"data":"=== RUN RECAP ===\n"}
+,{"stream_name":"stdout","time":3034.754783853,"data":"Forecast rows: 243,243 (expect 189...)\n"}
+,{"stream_name":"stdout","time":3034.754792578,"data":"Files saved: results_summary.csv, results_panels.csv, dm_tests.csv, test_losses_per_date.csv, forecast_dump.csv, fig_predicted_vs_realized.png, fig_qlike_bars.png, fig_cumulative_loss_diff.png\n"}
+,{"stream_name":"stdout","time":3034.982372544,"data":"Saved 18 .tex tables (9 panels × 3 metrics).\n"}
+,{"stream_name":"stderr","time":3040.049862197,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3040.049912189,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3040.200169047,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3040.200206292,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3040.786572525,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3041.207606607,"data":"[NbConvertApp] Writing 1567905 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3043.690971551,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3044.790509204,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":3044.790552788,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":3044.791127533,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":3044.791707339,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":3044.792006644,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":3044.792393522,"data":"[NbConvertApp] Writing 641656 bytes to __results__.html\n"}
+]
